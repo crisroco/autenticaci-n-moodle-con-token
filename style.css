@@ -1,0 +1,47 @@
+/**Author: Aniuska Maita @aniusk18**/
+/**Contenedor**/
+/**Contenedor**/
+.container{
+  background: url('https://lh3.googleusercontent.com/Emzu2fKWHvMkqoTdPeSZwIlauvApmfSKD3BXFiwZQ0uEsS2gN8CG-CHkgCQ3v8_GyNs=s630-fcrop64=1,18e20000e7bbffff:Soften=1,60,0');
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin: 15px 15px 15px 15px;
+}
+
+
+/**Head form**/
+
+h1{
+	text-align: center;
+	background: #fff;
+	padding: 15px 0 15px 0;
+	font-family: 'Lobster', cursive;
+	color: #000;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px #eee;
+
+}
+
+/**body form**/
+.barra{
+	background: #fff;
+	padding: 15px 0 15px 0;
+	font-family: 'Questrial', sans-serif;
+}
+.form-control :focus{
+	border-color: #66afe9;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.btn{
+    color: #FFFFFF;
+    background-color: #9C27B0;
+    border-color: rgba(0,0,0,.075);
+}
+
+.bloque-center{
+  float:none;
+  margin: 10px auto;
+}

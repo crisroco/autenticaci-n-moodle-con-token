@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+if (!isset($config->token)) {
+       $config->token = '';
+   }
+
+?>
+<table cellspacing="0" cellpadding="5" border="0">
+   <tr>
+       <td colspan="3">
+           <h3><?php print_string('passwdexpire_settings', 'auth_ucic') ?></h3>
+       </td>
+   </tr>
+   <tr>
+       <td align="right">
+           <label for="menuexpiration">
+               <?php print_string('expiration', 'auth_ucic') ?>
+           </label>
+       </td>
+       <td>
+           <?php echo html_writer::empty_tag('input', array('type'=>'text', 'name'=>'token', 'value'=>$config->token)) ?>
+       </td>
+       <td><?php print_string('expiration_desc', 'auth_ucic') ?></td>
+   </tr>
+</table>
+</body>
+</html>
